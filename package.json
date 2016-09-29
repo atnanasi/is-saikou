@@ -1,0 +1,22 @@
+{
+  "name": "is-saikou",
+  "version": "1.0.0",
+  "description": "Saikou checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atnanasi/is-saikou.git"
+  },
+  "author": "Atnanasi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atnanasi/is-saikou/issues"
+  },
+  "homepage": "https://github.com/atnanasi/is-saikou#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
