@@ -1,0 +1,2 @@
+# is-saikou
+Saikou checker.
