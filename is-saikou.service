@@ -1,0 +1,16 @@
+[Unit]
+Description=Saikou checker.
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /srv/nodejs/is-saikou/index.js
+WorkingDirectory=/srv/nodejs/is-saikou/
+KillMode=process
+Restart=always
+User=nodejs
+Group=nodejs
+
+[Install]
+WantedBy=multi-user.target
+
